@@ -6,6 +6,7 @@ public class Scannerdemo {
         int a=x.nextInt();
         int b=x.nextInt();
         System.out.println(a+b);
-        
+        x.close();
+
     }
 }
